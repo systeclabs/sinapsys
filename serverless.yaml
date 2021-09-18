@@ -1,0 +1,20 @@
+service:
+ name: sinapsys-server
+
+plugins:
+ - 'serverless-plugin-typescript'
+ - serverless-plugin-optimize
+ - serverless-offline
+
+provider:
+ name: aws
+ runtime: nodejs12.x
+
+functions:
+ main: # The name of the lambda function
+   # The module 'handler' is exported in the file 'src/lambda'
+   handler: src/lambda.handler
+   events:
+     - http:
+         method: any
+         path: /{any+}
