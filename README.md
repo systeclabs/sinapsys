@@ -29,7 +29,7 @@ It comes out of the box with:
 <ul>
 <li>REST Server</li>
 <li>RTMP Server for live streaming</li>
-<li><li><a href="https://www.github.com/systeclabs/systec-webapp">Web Client</></li></li>
+<li><a href="https://www.github.com/systeclabs/systec-webapp">Web Client</></li>
 <li><a href="https://www.github.com/systeclabs/systec-mobile">Mobile Client</></li>
 </ul>
 
